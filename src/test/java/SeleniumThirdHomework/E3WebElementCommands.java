@@ -48,6 +48,8 @@ public class E3WebElementCommands {
         textbox.clear();
         textbox.sendKeys("here is the custom text entered");
 
+        driver.close();
+
 
 
 

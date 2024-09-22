@@ -52,6 +52,8 @@ public class E2RadioButtons {
             }
         }
 
+        driver.close();
+
 
 
 
