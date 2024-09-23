@@ -43,6 +43,7 @@ public class E1CheckBoxes {
         WebElement EnabledCheckBox=driver.findElement(By.xpath("//button[@id='enabledcheckbox']"));
         EnabledCheckBox.click();
 
+
         Thread.sleep(2000);
 
         WebElement ReceiveNotButton=driver.findElement(By.xpath("//input[@value='Receive-Notifications']"));
